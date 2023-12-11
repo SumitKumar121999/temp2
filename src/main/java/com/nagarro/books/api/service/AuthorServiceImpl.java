@@ -10,12 +10,6 @@ import com.nagarro.books.api.dao.AuthorDao;
 import com.nagarro.books.api.exception.ResourceNotFoundException;
 import com.nagarro.books.api.model.Author;
 
-/**
- * Implements the author service interface
- * 
- * @author rohanaggarwal
- *
- */
 @Service
 public class AuthorServiceImpl implements AuthorService {
 

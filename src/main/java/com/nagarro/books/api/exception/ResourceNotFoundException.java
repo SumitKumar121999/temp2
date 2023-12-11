@@ -3,12 +3,7 @@ package com.nagarro.books.api.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-/**
- * Exception in case the resource is not found
- * 
- * @author rohanaggarwal
- *
- */
+
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
 public class ResourceNotFoundException extends RuntimeException {
 

@@ -3,12 +3,7 @@ package com.nagarro.books.api;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * The main class of the application
- * 
- * @author rohanaggarwal
- *
- */
+
 @SpringBootApplication
 public class BookApiApplication {
 

@@ -7,12 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.nagarro.books.api.model.Author;
 
-/**
- * Dao class for the Author
- * 
- * @author rohanaggarwal
- *
- */
+
 @Repository
 public interface AuthorDao extends JpaRepository<Author, Long> {
 	/**

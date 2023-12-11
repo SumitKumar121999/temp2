@@ -4,12 +4,7 @@ import java.util.List;
 
 import com.nagarro.books.api.model.Book;
 
-/**
- * The service interface for the book
- * 
- * @author rohanaggarwal
- *
- */
+
 public interface BookService {
 	/**
 	 * Saves a new book in the database

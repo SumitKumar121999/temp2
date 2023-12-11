@@ -17,12 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nagarro.books.api.model.Author;
 import com.nagarro.books.api.service.AuthorService;
 
-/**
- * Controller to define all the author CRUD operations
- * 
- * @author rohanaggarwal
- *
- */
+
 @RestController
 @RequestMapping("/bookapi/v1/author")
 public class AuthorController {

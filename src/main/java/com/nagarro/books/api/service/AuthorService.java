@@ -4,12 +4,7 @@ import java.util.List;
 
 import com.nagarro.books.api.model.Author;
 
-/**
- * The service interface for the author
- * 
- * @author rohanaggarwal
- *
- */
+
 public interface AuthorService {
 
 	/**

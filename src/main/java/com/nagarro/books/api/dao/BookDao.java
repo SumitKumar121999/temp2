@@ -8,12 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.nagarro.books.api.model.Book;
 
-/**
- * Dao class for the book
- *  
- * @author rohanaggarwal
- *
- */
 @Repository
 public interface BookDao extends JpaRepository<Book, Long> {
 	/**

@@ -5,12 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- * The class for the author entity
- *  
- * @author rohanaggarwal
- *
- */
+
 @Entity
 public class Author {
 

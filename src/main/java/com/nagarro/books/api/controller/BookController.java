@@ -17,12 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nagarro.books.api.model.Book;
 import com.nagarro.books.api.service.BookService;
 
-/**
- * Controller to define all the book CRUD operations
- * 
- * @author rohanaggarwal
- *
- */
+
 @RestController
 @RequestMapping("/bookapi/v1/book")
 public class BookController {
